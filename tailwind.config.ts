@@ -22,10 +22,19 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          50: "#DBEAFE",
+          600: "#1447E6",
+          plain: "#1447E6",
+          outlined: "#51A2FF",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          "01-050": "#CBFBF1",
+          "01-600": "#00786F",
+          "02-050": "#DFF2FE",
+          "02-600": "#0069A8",
+          "03-050": "#E0E7FF",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -57,6 +66,23 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        neutral: {
+          20: "#F8FAFC",
+          50: "#F1F5F9",
+          100: "#E2E8F0",
+          200: "#CAD5E2",
+          900: "#020618",
+          outlined: {
+            border: "#CAD5E2",
+            color: "#1D293D",
+            disabled: "#90A1B9",
+          },
+        },
+        text: {
+          primary: "#0F172B",
+          secondary: "#314158",
+          tertiary: "#45556C",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -84,6 +110,9 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      fontFamily: {
+        pretendard: ["Pretendard Variable", "-apple-system", "Roboto", "Helvetica", "sans-serif"],
       },
     },
   },
